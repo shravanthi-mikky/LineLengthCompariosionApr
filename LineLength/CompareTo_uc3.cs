@@ -16,7 +16,7 @@ namespace LineLength
             {
                 Console.WriteLine("Lengths are equal!");
             }
-            if (res >= 0)
+            else if (res > 0)
             {
                 Console.WriteLine("Line 1 is greator than line 2 ");
             }
